@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Certifications - Nikhil Pratap</title>
+  <link rel="stylesheet" href="style.css">
+  <style>
+    body {
+      background-color: #0a0a0a;
+      color: #00ff88;
+      font-family: 'Poppins', sans-serif;
+      margin: 0;
+      padding: 0;
+    }
+
+    .certifications-container {
+      max-width: 1000px;
+      margin: 80px auto;
+      padding: 20px;
+      background: #111;
+      border-radius: 12px;
+      box-shadow: 0 0 20px #00ff88;
+      text-align: center;
+      animation: fadeIn 1s ease-in-out;
+    }
+
+    h1 {
+      font-size: 2.5rem;
+      margin-bottom: 40px;
+    }
+
+    .certificates {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      gap: 30px;
+    }
+
+    .certificate {
+      background-color: #0a0a0a;
+      border: 2px solid #00ff88;
+      border-radius: 12px;
+      padding: 20px;
+      width: 300px;
+      transition: transform 0.3s, box-shadow 0.3s;
+    }
+
+    .certificate:hover {
+      transform: scale(1.05);
+      box-shadow: 0 0 15px #00ff88;
+    }
+
+    .certificate img {
+      width: 100%;
+      border-radius: 8px;
+      margin-bottom: 15px;
+    }
+
+    .certificate a {
+      text-decoration: none;
+      color: #00ff88;
+      font-weight: bold;
+      font-size: 1.1rem;
+      display: block;
+      margin-top: 10px;
+      transition: color 0.3s;
+    }
+
+    .certificate a:hover {
+      color: #00cc6a;
+    }
+
+    footer {
+      text-align: center;
+      margin-top: 50px;
+      padding: 20px;
+      color: #666;
+      font-size: 0.9rem;
+    }
+  </style>
+</head>
+
+<body>
+
+  <nav>
+    <div class="nav-container">
+        <div class="logo" data-aos="zoom-in" data-aos-duration="1500">
+            Nikhil <span>Pratap</span>
+        </div>
+        <div class="links">
+
+            <div class="link" data-aos="fade-up" data-aos-delay="1500" data-aos-duration="200">
+                <a href="index.html">Home</a>
+            </div> 
+
+            <div class="link" data-aos="fade-up" data-aos-duration="1500" data-aos-delay="200"><a
+                    href="about.html">About</a>
+            </div>
+
+            <div class="link" data-aos="fade-up" data-aos-duration="1500" data-aos-delay="400"><a
+                    href="#">Certifications</a></div>
+            <div class="link" data-aos="fade-up" data-aos-duration="1500" data-aos-delay="400"><a
+                    href="resume.html">Resume</a></div>
+            <div class="link" data-aos="fade-up" data-aos-duration="1500" data-aos-delay="500"><a
+                    href="contact.html">Contact</a></div>
+        </div>
+        <i class="fa-solid fa-bars hamburg" onclick="hamburg()"></i>
+    </div>
+
+</nav>
+
+  <div class="certifications-container" data-aos="fade-up" data-aos-duration="1000">
+    <h1>My Certifications</h1>
+
+    <div class="certificates">
+
+      <div class="certificate">
+        <img src="courseraIMG.png" alt="Certificate 1">
+        <a href="https://coursera.org/share/8a643df6143675c4bd18c98c6f2007ce" target="_blank">Learn to code with AI</a>
+      </div>
+
+      <div class="certificate">
+        <img src="courseraIMG (2).png" alt="Certificate 2">
+        <a href="https://archive.nptel.ac.in/content/noc/NOC24/SEM2/Ecertificates/106/noc24-cs126/Course/NPTEL24CS126S75690006404170587.pdf" target="_blank">Design & Implementation of Human-Computer Interfaces</a>
+      </div>
+
+    </div>
+  </div>
+
+  <footer>
+    © 2025 Nikhil Pratap. All rights reserved.
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+
+</html>
